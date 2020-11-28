@@ -1,0 +1,99 @@
+.body-sobre{
+    background: linear-gradient(329.54deg, #64DAFE 0%, #ED9DCA 100%);
+}
+
+header {
+    background: url('../../Assets/adrielly.jpg') center;
+    background-size: cover;
+    height: 328px;
+    width: 100%;
+  
+}
+header button{
+	border: none;
+	padding: 10px;
+	color: #FFF;
+	margin-top: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	
+
+}
+
+header .header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+header .header h1{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 60px;
+
+}
+header .header-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+}
+
+
+header .header-btn .btn-1{
+	background: #64DAFE;
+	
+}
+header .header-btn .btn-1:hover{
+	background:#ED9DCA;
+	transform: scale(1.1);
+	
+}
+header .header-btn .btn-2{
+	background:  #ED9DCA;
+	margin-left: 15px;
+}
+header .header-btn .btn-2:hover{
+	background:  #64DAFE;
+	transform: scale(1.1);
+	
+}
+.sobre-mim h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #FF69B4;
+    font-weight: bold;
+}
+.sobre-mim p{
+    width: 400px;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.sobre-mim ul{
+   
+    font-weight: 200;
+}
+
+.sobre-mim .div-sobremim{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+.sobre-mim .div-sobremim ul{
+    margin-right: 70px;
+}
+
+footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    padding: 5px;
+}

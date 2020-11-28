@@ -1,0 +1,66 @@
+
+#page-landing {
+    padding: 2rem;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(329.54deg, #64DAFE 0%, #ED9DCA 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#page-landing .content-wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 1100px;
+	height: 100%;
+	max-height: 680px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	
+    background: url('../../Assets/music.svg') no-repeat 80% center;
+    background-size: 500px;
+}
+
+#page-landing .content-wrapper main {
+	max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1 {
+	font-size: 76px;
+	font-weight: 900;
+	line-height: 78px;
+}
+
+
+.content-wrapper main button{
+	border: none;
+	padding: 10px;
+	color: #FFF;
+	margin-top: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	
+
+}
+.content-wrapper main .btn-1{
+	background: #64DAFE;
+	
+}
+.content-wrapper main .btn-1:hover{
+	background:#ED9DCA;
+	transform: scale(1.1);
+	
+}
+.content-wrapper main .btn-2{
+	background:  #ED9DCA;
+	margin-left: 15px;
+}
+.content-wrapper main .btn-2:hover{
+	background:  #64DAFE;
+	transform: scale(1.1);
+	
+}
