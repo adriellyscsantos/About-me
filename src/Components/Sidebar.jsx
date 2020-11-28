@@ -1,11 +1,10 @@
 import { FiArrowLeft } from 'react-icons/fi'
 import { FiArrowRight } from 'react-icons/fi'
-import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import '../Styles/Components/sidebar.css'
 
 const Sidebar = () =>{
-    const { goBack } = useHistory()
+    
 
     return (
         <aside className="app-sidebar">
